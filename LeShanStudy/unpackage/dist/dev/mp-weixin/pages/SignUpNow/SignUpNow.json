@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "立即报名",
+  "usingComponents": {
+    "u-tabbar": "/node-modules/uview-ui/components/u-tabbar/u-tabbar"
+  }
+}

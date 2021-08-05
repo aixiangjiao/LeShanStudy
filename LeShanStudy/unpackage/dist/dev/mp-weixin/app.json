@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/PostgraduateCourse/PostgraduateCourse",
+    "pages/ResearchBaseIndex/ResearchBaseIndex",
+    "pages/SignUpNow/SignUpNow",
+    "pages/UserPage/UserPage"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF",
+    "scrollIndicator": "none"
+  },
+  "tabBar": {
+    "color": "#000",
+    "backerStyle": "white",
+    "selectedColor": "#555",
+    "backgroundColor": "#e6e6e6",
+    "list": [
+      {
+        "pagePath": "pages/index/index"
+      },
+      {
+        "pagePath": "pages/ResearchBaseIndex/ResearchBaseIndex"
+      },
+      {
+        "pagePath": "pages/SignUpNow/SignUpNow"
+      },
+      {
+        "pagePath": "pages/PostgraduateCourse/PostgraduateCourse"
+      },
+      {
+        "pagePath": "pages/UserPage/UserPage"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

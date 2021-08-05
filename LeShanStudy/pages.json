@@ -1,0 +1,97 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"app-plus": {
+					"titleNView": {
+						"autoBackButton": true,
+						"buttons": [{
+								"type": "share"
+							},
+							{
+								"type": "favorite"
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/PostgraduateCourse/PostgraduateCourse",
+			"style": {
+				"navigationBarTitleText": "研学课程",
+				"app-plus": {
+					"titleNView": {
+						"autoBackButton": true
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/ResearchBaseIndex/ResearchBaseIndex",
+			"style": {
+				"navigationBarTitleText": "研学基地",
+				"app-plus": {
+					"titleNView": {
+						"autoBackButton": true
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/SignUpNow/SignUpNow",
+			"style": {
+				"navigationBarTitleText": "立即报名",
+				"app-plus": {
+					"titleNView": {
+						"autoBackButton": true
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/UserPage/UserPage",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"app-plus": {
+					"titleNView": {
+						"autoBackButton": true
+					}
+				}
+			}
+		}
+
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF",
+		"scrollIndicator": "none"
+	},
+	"tabBar": {
+		"color": "#000",
+		"backerStyle": "white",
+		"selectedColor": "#555",
+		"backgroundColor": "#e6e6e6",
+		"list": [{
+				"pagePath": "pages/index/index"
+			}, {
+				"pagePath": "pages/ResearchBaseIndex/ResearchBaseIndex"
+			}, {
+				"pagePath": "pages/SignUpNow/SignUpNow"
+			},
+			{
+				"pagePath": "pages/PostgraduateCourse/PostgraduateCourse"
+			},
+			{
+				"pagePath": "pages/UserPage/UserPage"
+			}
+		]
+	}
+}

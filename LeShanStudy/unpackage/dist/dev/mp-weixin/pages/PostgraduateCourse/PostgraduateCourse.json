@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "研学课程",
+  "usingComponents": {
+    "u-tabbar": "/node-modules/uview-ui/components/u-tabbar/u-tabbar"
+  }
+}
